@@ -33,8 +33,8 @@ section#login {
     left: 50%;
     top: 50%;    
     background-color: white;
-    width: 250px;
-    height: 480px;
+    width: 80%;
+    height: 80%;
     border-radius: 20px;
     overflow: hidden; /* Esconder as quinas da imagem que ficaram para fora da section*/
     box-shadow: 0px 0px 15px var(--cor2);
@@ -46,7 +46,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: url(../imagens/arena.jpg);
-    height: 200px;
+    height: 250px;
     background-size: cover;    
 }
 
@@ -57,7 +57,7 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 div#formulario > p {
@@ -70,7 +70,7 @@ form > div.campo {
     width: 100%;
     height: 40px;
     border-radius: 5px;  
-    margin: 8px 0;  
+    margin: 5px 0;  
 }
 
 div.campo > label {
@@ -85,11 +85,13 @@ div.campo > i {
 }
 
 div.campo > input {     
-    background-color: var(--cor5);
+    background-color: white;
     border: 0;
     color: black;
     padding: 5px;
-    transform: translateY(-10px);
+    transform: translateY(-12px);
+    border-radius: 5px;
+    width: 80%;
 }
 
 div.campo > input:focus-within {
