@@ -18,13 +18,13 @@
 
 body {
     background-image: linear-gradient(var(--cor3), var(--cor4));
-    height: 95vh;
+    height: 90vh;
     width: 100vw;
 }
 
 main {
     position: relative;
-    height: 95vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -47,7 +47,7 @@ section#login > div#imagem {
     display: block;
     background: url(../imagens/arena.jpg);
     height: 250px;
-    background-size: cover;    
+    background-size: cover;      
 }
 
 section#login > div#formulario {
